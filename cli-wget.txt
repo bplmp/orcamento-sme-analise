@@ -1,0 +1,7 @@
+curl -X GET --header "Accept: application/json" --header "Authorization: Bearer 198f959a5f39a1c441c7c863423264" "https://gatewayapi.prodam.sp.gov.br:443/financas/orcamento/sof/v2.1.0/consultaContrato?anoContrato=2017&codOrgao=16"
+
+curl -X GET --header "Accept: application/json" --header "Authorization: Bearer 198f959a5f39a1c441c7c863423264" "https://gatewayapi.prodam.sp.gov.br:443/financas/orcamento/sof/v2.1.0/consultaEmpenhos?anoEmpenho=2018&mesEmpenho=1&codOrgao=16"
+
+time wget --header="Accept: application/json" --header="Authorization: Bearer 198f959a5f39a1c441c7c863423264" "https://gatewayapi.prodam.sp.gov.br:443/financas/orcamento/sof/v2.1.0/consultaEmpenhos?anoEmpenho=2010&mesEmpenho=12&codOrgao=16&numPagina=1"
+
+wget --header="Accept: application/json" --header="Authorization: Bearer 198f959a5f39a1c441c7c863423264" "https://gatewayapi.prodam.sp.gov.br:443/financas/orcamento/sof/v2.1.0/consultaEmpenhos?anoEmpenho=2010&mesEmpenho=12&codOrgao=16&numPagina="{2..51}
