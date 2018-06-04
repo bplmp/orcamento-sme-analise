@@ -1,3 +1,5 @@
 .DS_Store
 dados/
 wget/
+.ipynb_checkpoints/
+
