@@ -1,5 +1,10 @@
 .DS_Store
-dados/
+dados/wget-empenhos/
+dados/wget-contratos/
+dados/empenhos-contratos/
+dados/*.json
+dados/*.csv
+dados/raw-data.zip
 wget/
 wget-contratos/
 .ipynb_checkpoints/
