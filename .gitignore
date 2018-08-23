@@ -1,5 +1,6 @@
 .DS_Store
 dados/wget-empenhos/
+dados/wget-empenhos-new/
 dados/wget-contratos/
 dados/empenhos-contratos/
 dados/*.json
