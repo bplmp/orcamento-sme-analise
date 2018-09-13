@@ -13,3 +13,11 @@ curl -X GET --header "Accept: application/json" --header "Authorization: Bearer 
 # consultar contrato por empenho
 wget --header="Accept: application/json" --header="Authorization: Bearer 198f959a5f39a1c441c7c863423264" "https://gatewayapi.prodam.sp.gov.br:443/financas/orcamento/sof/v2.1.0/consultaEmpenhos?anoEmpenho=2017&mesEmpenho=12&codOrgao=16&codContrato=18278"
 curl -X GET --header "Accept: application/json" --header "Authorization: Bearer 198f959a5f39a1c441c7c863423264" "https://gatewayapi.prodam.sp.gov.br:443/financas/orcamento/sof/v2.1.0/consultaEmpenhos?anoEmpenho=2017&mesEmpenho=12&codOrgao=16&codContrato=7343"
+
+
+
+# tentando baixar aposentadorias
+time wget --header="Accept: application/json" --header="Authorization: Bearer 198f959a5f39a1c441c7c863423264" "https://gatewayapi.prodam.sp.gov.br:443/financas/orcamento/sof/v2.1.0/consultaEmpenhos?anoEmpenho=2017&mesEmpenho=12&codOrgao=28&numPagina=1"
+
+# transportes, bilhete único
+wget --header="Accept: application/json" --header="Authorization: Bearer 198f959a5f39a1c441c7c863423264" "https://gatewayapi.prodam.sp.gov.br:443/financas/orcamento/sof/v2.1.0/consultaEmpenhos?anoEmpenho=2017&mesEmpenho=12&codOrgao=20&numPagina=1"
