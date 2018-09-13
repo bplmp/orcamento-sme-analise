@@ -6,7 +6,10 @@ dados/empenhos-contratos/
 dados/*.json
 dados/*.csv
 dados/raw-data.zip
+dados/*.~lock.*
+tmp/
 wget/
 wget-contratos/
 .ipynb_checkpoints/
 budget.json
+pmsp_budget.json
